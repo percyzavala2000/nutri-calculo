@@ -18,6 +18,10 @@ export const initialState:ActivityState =  {
 
   if (action.type==="save-activity") {
     //maneja la logica para actualizar
+   return {
+    ...state,
+    activities:[...state.activities,action.payload.newActivity]
+   }
     
   }
 return state;
