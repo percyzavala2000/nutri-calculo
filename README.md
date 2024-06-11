@@ -48,7 +48,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
     npm run dev
     ```
 
-5. Abre tu navegador y navega a `http://localhost:3000` para ver la aplicación en funcionamiento.
+5. Abre tu navegador y navega a `http://localhost:5174` o  para ver la aplicación en funcionamiento.
 
 ## Uso
 
@@ -73,7 +73,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto a través de [tu-email@example.com](mailto:tu-email@example.com).
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto a través de [percyzavala@gmail.com](mailto:percyzavala@gmail.com).
 
 ---
 
