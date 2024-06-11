@@ -1,8 +1,13 @@
-import { ChangeEvent, FormEvent, useState } from 'react';
-import { categoriesData } from "./data/categoriesData";
-import { ActivityT } from './types';
+import { ChangeEvent, Dispatch, FormEvent, useState} from 'react';
+import { categoriesData } from "../data/categoriesData";
+import { ActivityT } from '../types';
+import { ActivityActions } from '../reducers/activityReducer';
 
-export const Form = () => {
+type FormProps ={
+  dispatch:Dispatch<ActivityActions>
+
+}
+export const Form = ({dispatch}:FormProps) => {
   const [activity, setActivity] = useState<ActivityT>({
     category:1,
     name:"",
@@ -22,7 +27,7 @@ export const Form = () => {
     }
     const handleSubmit = (e:FormEvent<HTMLFormElement>) => { 
       e.preventDefault();
-      console.log("guardando" ,e.target)
+      dispatch({type:"save-activity",payload:{newActivity:activity}});
      }
   return (
     <form onSubmit={handleSubmit} className="space-y-5 bg-white shadow p-10 rounded-lg">
