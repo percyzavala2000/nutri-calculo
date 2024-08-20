@@ -18,7 +18,8 @@ NutriCálculo es una aplicación web para calcular y realizar un seguimiento de 
 - **TypeScript**: Superconjunto de JavaScript que añade tipos estáticos.
 - **TailwindCSS**: Framework de CSS para un diseño rápido y estilizado.
 - **LocalStorage**: API web para almacenamiento de datos en el navegador.
-- **useReducer**: Hook de React para manejar el estado complejo.
+- **useReducer**: en esta version se modifico.
+- **Context API**:Se agrego un API de React para compartir datos entre componentes.
 
 ## Instalación
 
